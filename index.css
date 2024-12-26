@@ -1,0 +1,64 @@
+/* index.css */
+
+body {
+  background: linear-gradient(45deg, #121212, #1e1e1e, #333333);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a {
+  color: #0f1010;
+}
+
+button {
+  background-color: #333333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555555;
+}
+
+input {
+  background-color: #333333;
+  color: white;
+  border: 1px solid #555555;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: #101011;
+  outline: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
